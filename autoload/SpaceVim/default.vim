@@ -125,7 +125,7 @@ function! SpaceVim#default#options() abort
   endif
   set shortmess+=s
   " Do not wrap lone lines
-  set nowrap
+  " set nowrap
 
   set foldtext=SpaceVim#default#Customfoldtext()
 
